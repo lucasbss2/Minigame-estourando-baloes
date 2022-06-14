@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang = "pt-br">
+    <head>
+        <title>Estourando balões</title>
+        <meta charset = "utf-8" />
+        <script src = "gameScript.js"></script>
+    </head>
+    <body onload = "startGame()">
+        <div style = "float:left; width: auto; height: 500px; background:white; border: solid 1px gray; margin-right: 1px">
+            <table border = "0">
+                <tr>
+                    <td>
+                        <img src = "images/big_blue_balloon.png" />
+                    </td>
+                    <td>
+                        <span id = "int_balloons" style='font-size:40px';></span>
+                    </td>
+                </tr>
+            </table>
+
+            <br />
+            <table border = "0">
+                <tr>
+                    <td>
+                        <img src = "images/popped_big_blue_balloon.png" />
+                    </td>
+                    <td>
+                        <span id="popped_balloons" style="font-size:40px"></span>
+                    </td>
+                </tr>
+            </table>
+
+            <br />
+            <table border = "0" style= "width: 140px; height: 132px;">
+                <tr>
+                    <td style = "background: url('images/stopwatch.png'); text-align: center">
+                        <span id = 'stopwatch' style="color: red; font-size: 25px;"></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id = "scenario" style = "float: left; width: 600px; height: 500px; background: url('images/scenario.png'); background-position: bottom"></div>
+    </body>
+</html>
