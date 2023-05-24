@@ -1,5 +1,5 @@
 # Minigame-estourando-baloes
-Minigame desenvolvido em JavaScript nativo. Consiste em estourar todos os balões antes que o tempo acabe.
+Minigame desenvolvido em JavaScript. Consiste em estourar todos os balões antes que o tempo acabe.
 
 
 # Demo:
